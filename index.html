@@ -8,12 +8,21 @@
   <body>
     <div id="root"></div>
 
-    <script>
-      const heading = document.createElement("h1");
-      heading.innerHTML = "I got job in XFactr.ai 'pappu'";
+    <!-- Injected React CDN -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
 
-      const root = document.getElementById("root");
-      root.appendChild(heading);
+    <script>
+        //React element: type, props, and children
+        const heading = React.createElement("h1",{},"I got job in XFactr.ai 'pappu'");
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(heading);
     </script>
   </body>
 </html>
