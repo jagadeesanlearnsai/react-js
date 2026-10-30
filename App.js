@@ -1,5 +1,4 @@
-
-      //React createElement: type, props, and children
-      const heading = React.createElement("h1", {id:"heading"}, "I got job in XFactr.ai 'pappu'");
-      const root = ReactDOM.createRoot(document.getElementById("root"));
-      root.render(heading);
+//React createElement: type, props, and children
+const heading = React.createElement("h1", { id: "heading" }, "I got job in XFactr.ai 'pappu'");
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(heading);

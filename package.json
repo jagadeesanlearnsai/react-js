@@ -1,0 +1,23 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is react created using javascript",
+  "homepage": "https://github.com/jagadeesanlearnsai/react-js#readme",
+  "bugs": {
+    "url": "https://github.com/jagadeesanlearnsai/react-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagadeesanlearnsai/react-js.git"
+  },
+  "license": "ISC",
+  "author": "M Jagadeesan",
+  "type": "commonjs",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "parcel": "^2.16.4"
+  }
+}
