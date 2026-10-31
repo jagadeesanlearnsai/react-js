@@ -13,11 +13,14 @@
   "license": "ISC",
   "author": "M Jagadeesan",
   "type": "commonjs",
-  "main": "App.js",
   "scripts": {
-    "test": "jest"
+    "test": ""
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
   },
   "dependencies": {
-    "parcel": "^2.16.4"
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
   }
 }
