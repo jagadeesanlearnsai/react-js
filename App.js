@@ -1,6 +1,14 @@
 import React from "react";
-import ReactDOM from "react-dom/client"
-//React createElement: type, props, and children
-const heading = React.createElement("h1", { id: "heading" }, "I got job in XFactr.ai 'pappu'");
+import ReactDOM from "react-dom/client";
+import { Header } from "./Header";
+
+const AppLayout = () => {
+  return (
+    <>
+      <Header />
+    </>
+  );
+};
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(heading);
+root.render(<AppLayout />);
